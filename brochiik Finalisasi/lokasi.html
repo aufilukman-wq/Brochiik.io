@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lokasi Outlet — Brochiick</title>
+<meta name="description" content="Temukan outlet Brochiick terdekat di Makassar lengkap dengan jam buka dan petunjuk arah Google Maps.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="nav" id="nav">
+  <div class="container">
+    <div class="nav__row">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/logo.png" alt="Brochiick" width="40" height="40" class="nav__logo-img">
+        <span>Brochiick</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="tentang.html" data-page="tentang.html">Tentang</a>
+        <a href="menu.html" data-page="menu.html">Menu</a>
+        <a href="kenapa.html" data-page="kenapa.html">Kenapa Kami</a>
+        <a href="promo.html" data-page="promo.html">Promo</a>
+        <a href="lokasi.html" data-page="lokasi.html">Lokasi</a>
+        <a href="kontak.html" data-page="kontak.html">Kontak</a>
+      </nav>
+
+      <div class="nav__right">
+        <a href="lokasi.html" class="nav__pin">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+          Cari Outlet
+        </a>
+        <a href="menu.html" class="btn btn--dark nav__cta">Pesan Sekarang</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<main>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header">
+    <div class="container">
+      <span class="page-header__pill">📍 5 Outlet</span>
+      <h1>Kunjungi Brochiick</h1>
+      <p>Pesan lewat aplikasi Brochiick: Pesan → Bayar → Ambil. Pilih Ambil di Outlet atau Pesan Antar, lalu nikmati ayam geprek, crispy chicken, dan menu hemat Brochiick dari outlet terdekatmu.</p>
+    </div>
+  </section>
+
+  <!-- ===== LOKASI SPLIT: LIST + MAP ===== -->
+  <section class="lokasi">
+    <div class="container">
+      <div class="lokasi__split">
+        <div class="lokasi__list">
+        <div class="lokasi__card is-active" data-map-query="Jl.%20Antang%20Raya%20No.57%2C%20Antang%2C%20Kec.%20Manggala%2C%20Kota%20Makassar">
+          <div class="lokasi__card__top">
+            <h3>Outlet Pusat</h3>
+            <span class="lokasi__hours">09:00 - 23:30</span>
+          </div>
+          <p>Jl. Antang Raya No.57, Antang, Kec. Manggala, Kota Makassar, Sulawesi Selatan</p>
+          <div class="lokasi__card__actions">
+            <a class="lokasi__maplink" href="https://www.google.com/maps/search/?api=1&query=Jl.%20Antang%20Raya%20No.57%2C%20Antang%2C%20Kec.%20Manggala%2C%20Kota%20Makassar" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+        <div class="lokasi__card" data-map-query="Jl.%20Antang%20Raya%20No.57%2C%20Antang%2C%20Kec.%20Manggala%2C%20Kota%20Makassar">
+          <div class="lokasi__card__top">
+            <h3>Brochiick Pongtiku</h3>
+            <span class="lokasi__hours">Buka 24 Jam</span>
+          </div>
+          <p>Jl. Pongtiku No.78, Timungan Lompoa, Kec. Bontoala, Kota Makassar, Sulawesi Selatan 90213</p>
+          <div class="lokasi__card__actions">
+            <a class="lokasi__maplink" href="https://www.google.com/maps/search/?api=1&query=Jl.%20Pongtiku%20No.78%2C%20Timungan%20Lompoa%2C%20Kec.%20Bontoala%2C%20Kota%20Makassar%2C%20Sulawesi%20Selatan%2090213" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+        <div class="lokasi__card" data-map-query="Jl.%20Nipa-Nipa%20No.86A%2C%20Manggala%2C%20Kec.%20Manggala%2C%20Kota%20Makassar">
+          <div class="lokasi__card__top">
+            <h3>Brochiick Nipa-Nipa</h3>
+            <span class="lokasi__hours">09:00 - 23:00</span>
+          </div>
+          <p>Jl. Nipa-Nipa No.86A, Manggala, Kec. Manggala, Kota Makassar</p>
+          <div class="lokasi__card__actions">
+            <a class="lokasi__maplink" href="https://www.google.com/maps/search/?api=1&query=Jl.%20Nipa-Nipa%20No.86A%2C%20Manggala%2C%20Kec.%20Manggala%2C%20Kota%20Makassar" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+        <div class="lokasi__card" data-map-query="Sudiang%20Raya%2C%20Biringkanaya%2C%20Makassar%20City">
+          <div class="lokasi__card__top">
+            <h3>Brochiick Pajjaiang</h3>
+            <span class="lokasi__hours">09:00 - 23:30</span>
+          </div>
+          <p>Sudiang Raya, Biringkanaya, Makassar City</p>
+          <div class="lokasi__card__actions">
+            <a class="lokasi__maplink" href="https://www.google.com/maps/search/?api=1&query=Sudiang%20Raya%2C%20Biringkanaya%2C%20Makassar%20City" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+        <div class="lokasi__card" data-map-query="Kec.%20Tallo%2C%20Kota%20Makassar">
+          <div class="lokasi__card__top">
+            <h3>Brochiick Rappokalling</h3>
+            <span class="lokasi__hours">Sampai 23:30</span>
+          </div>
+          <p>Kec. Tallo, Kota Makassar</p>
+          <div class="lokasi__card__actions">
+            <a class="lokasi__maplink" href="https://www.google.com/maps/search/?api=1&query=Kec.%20Tallo%2C%20Kota%20Makassar" target="_blank" rel="noopener">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+        </div>
+
+        <div class="lokasi__map">
+          <iframe id="lokasiMapFrame"
+            src="https://www.google.com/maps?q=Jl.%20Antang%20Raya%20No.57%2C%20Antang%2C%20Kec.%20Manggala%2C%20Kota%20Makassar&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="kontak-footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="index.html" class="nav__logo nav__logo--light">
+        <img src="assets/logo.png" alt="Brochiick" width="40" height="40" class="nav__logo-img">
+        <span>Brochiick</span>
+      </a>
+      <p>Ayam geprek, crispy chicken, dan menu hemat Brochiick disajikan hangat setiap hari.</p>
+      <div class="footer__social">
+        <a href="https://instagram.com/brochiick" target="_blank" rel="noopener" aria-label="Instagram">Instagram @brochiick</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Jelajahi</h4>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="menu.html">Menu</a>
+      <a href="promo.html">Promo</a>
+      <a href="lokasi.html">Lokasi</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Kontak</h4>
+      <p>Jl. Antang Raya No.57, Antang, Kec. Manggala, Kota Makassar</p>
+      <p>081533330357</p>
+      <p>Instagram: @brochiick</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Tetap Update</h4>
+      <p>Dapat kabar promo langsung ke email kamu.</p>
+      <form class="footer__form" id="newsletterForm">
+        <input type="email" placeholder="Email kamu" required>
+        <button type="submit">Kirim</button>
+      </form>
+      <p class="footer__form-note" id="formNote"></p>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; 2026 Brochiick. Seluruh hak cipta dilindungi.</p>
+    <div>
+      <a href="#">Syarat & Ketentuan</a>
+      <a href="#">Kebijakan Privasi</a>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Kembali ke atas">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>

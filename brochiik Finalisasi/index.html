@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Brochiick — Ayam Geprek & Crispy Chicken Hemat</title>
+<meta name="description" content="Brochiick menghadirkan ayam geprek, crispy chicken, paket hemat, dan menu indomie untuk makan enak dengan harga bersahabat.">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="nav" id="nav">
+  <div class="container">
+    <div class="nav__row">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/logo.png" alt="Brochiick" width="40" height="40" class="nav__logo-img">
+        <span>Brochiick</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks">
+        <a href="tentang.html" data-page="tentang.html">Tentang</a>
+        <a href="menu.html" data-page="menu.html">Menu</a>
+        <a href="kenapa.html" data-page="kenapa.html">Kenapa Kami</a>
+        <a href="promo.html" data-page="promo.html">Promo</a>
+        <a href="lokasi.html" data-page="lokasi.html">Lokasi</a>
+        <a href="kontak.html" data-page="kontak.html">Kontak</a>
+      </nav>
+
+      <div class="nav__right">
+        <a href="lokasi.html" class="nav__pin">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M12 22s7-7.4 7-13a7 7 0 10-14 0c0 5.6 7 13 7 13z" stroke="#B71C17" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.4" fill="#B71C17"/></svg>
+          Cari Outlet
+        </a>
+        <a href="menu.html" class="btn btn--dark nav__cta">Pesan Sekarang</a>
+      </div>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<main id="top">
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="hero__blob" aria-hidden="true"></div>
+    <div class="container hero__grid">
+      <div class="hero__copy">
+        <p class="kicker">Ayam geprek enak, harga tetap hemat</p>
+        <h1>Makan enak,<br>tetap hemat di<br><em>Brochiick aja!</em></h1>
+        <p class="hero__desc">Nikmati ayam geprek, crispy chicken, paket hemat, dan indomie dengan rasa yang mantap. Cocok untuk makan sendiri, bersama teman, atau keluarga.</p>
+        <div class="hero__actions">
+          <a href="menu.html" class="btn btn--primary">Lihat Menu</a>
+          <a href="lokasi.html" class="btn btn--ghost">Cari Outlet Terdekat</a>
+        </div>
+      </div>
+
+      <div class="hero__visual hero__photo">
+        <img src="assets/menu-lengkap.png" alt="Daftar menu Brochiick dengan ayam geprek dan crispy chicken">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="stats" id="stats">
+        <div class="stat">
+          <span class="stat__num" data-count="5">0</span><span class="stat__suffix">+</span>
+          <p>Outlet Brochiick</p>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="4">0</span><span class="stat__suffix">+</span>
+          <p>Paket Utama</p>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="9">0</span><span class="stat__suffix">+</span>
+          <p>Menu Pilihan</p>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="1">0</span><span class="stat__suffix">x</span>
+          <p>Slogan Kami</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TENTANG (teaser) ===== -->
+  <section class="about" id="tentang">
+    <div class="container about__grid">
+      <div class="about__visual about__home-photo">
+        <img src="assets/gallery/momen-08.jpg" alt="Suasana outlet Brochiick">
+      </div>
+      <div class="about__copy">
+        <p class="kicker">Cerita Kami</p>
+        <h2>Dari gerobak jalanan, tumbuh jadi Brochiick.</h2>
+        <p>Brochiick hadir dengan konsep ayam geprek dan crispy chicken yang dekat dengan keseharian. Kami mengutamakan rasa, porsi, pelayanan, dan harga yang tetap ramah untuk pelanggan.</p>
+        <a href="tentang.html" class="link-arrow">Selengkapnya tentang kami</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KENAPA KAMI (teaser) ===== -->
+  <section class="why" id="kenapa">
+    <div class="container">
+      <p class="kicker kicker--center">Kenapa Brochiick</p>
+      <h2 class="section-title">Enak, kenyang, dan tetap ramah di kantong.</h2>
+
+      <div class="why__grid">
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8-3.6 8-8 8" stroke="#D6362A" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="2.4" fill="#D6362A"/></svg>
+          </div>
+          <h3>Ayam Disajikan Hangat</h3>
+          <p>Ayam disiapkan dan disajikan dengan perhatian pada rasa, tekstur, dan kebersihan agar tetap nikmat saat sampai ke pelanggan.</p>
+        </div>
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 3l2.2 6.6H21l-5.4 4 2.1 6.6L12 16.4 6.3 20.2l2.1-6.6L3 9.6h6.8L12 3z" fill="#D6362A"/></svg>
+          </div>
+          <h3>Rasa yang Konsisten</h3>
+          <p>Kami menjaga racikan sambal, bumbu, nasi, dan pilihan saus agar rasa Brochiick tetap mudah dikenali di setiap kunjungan.</p>
+        </div>
+        <div class="why__card">
+          <div class="why__icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M3 12h18M3 6h18M3 18h18" stroke="#D6362A" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Paket Hemat</h3>
+          <p>Pilihan paket mulai dari harga hemat, sehingga makan ayam geprek tetap terasa bersahabat untuk mahasiswa, pekerja, dan keluarga.</p>
+        </div>
+      </div>
+      <div class="menu__more">
+        <a href="kenapa.html" class="link-arrow">Lihat lebih lengkap</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU (teaser) ===== -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <p class="kicker kicker--center">Menu Favorit</p>
+      <h2 class="section-title">Menu Brochiick yang bikin kenyang.</h2>
+
+      <div class="menu__grid">
+        <article class="menu__card">
+          <div class="menu__card__img menu__card__img--food"><img src="assets/menu-food/hemat1.jpg" alt="Hemat 1"></div>
+          <div class="menu__card__body"><span class="tag">Paket Hemat</span><h3>Hemat 1</h3><span class="menu__price">Rp 16.000</span></div>
+        </article>
+        <article class="menu__card">
+          <div class="menu__card__img menu__card__img--food"><img src="assets/menu-food/hemat2.jpg" alt="Hemat 2"></div>
+          <div class="menu__card__body"><span class="tag">Paket Hemat</span><h3>Hemat 2</h3><span class="menu__price">Rp 20.000</span></div>
+        </article>
+        <article class="menu__card">
+          <div class="menu__card__img menu__card__img--food"><img src="assets/menu-food/indomieA.jpg" alt="Indomie Geprek A"></div>
+          <div class="menu__card__body"><span class="tag">Per Indomiean</span><h3>Indomie Geprek A</h3><span class="menu__price">Rp 22.000</span></div>
+        </article>
+        <article class="menu__card">
+          <div class="menu__card__img menu__card__img--food"><img src="assets/menu-food/cr1.jpg" alt="Crischick 1"></div>
+          <div class="menu__card__body"><span class="tag">Crispy Chicken</span><h3>Crischick 1</h3><span class="menu__price">Rp 15.000</span></div>
+        </article>
+      </div>
+
+      <div class="menu__more">
+        <a href="menu.html" class="btn btn--dark">Lihat Semua Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROMO (teaser) ===== -->
+  <section class="promo" id="promo">
+    <div class="container promo__row">
+      <div class="promo__copy">
+        <p class="kicker kicker--light">Promo Minggu Ini</p>
+        <h2>Makan enak tetap hemat di Brochiick aja!</h2>
+        <p>Nikmati paket hemat Brochiick dengan pilihan ayam geprek, nasi, sambal, es teh, dan menu indomie sesuai kebutuhanmu.</p>
+        <a href="promo.html" class="btn btn--primary">Lihat Semua Promo</a>
+      </div>
+      <div class="promo__badge" aria-hidden="true">
+        <svg viewBox="0 0 200 200" width="180" height="180">
+          <circle cx="100" cy="100" r="96" fill="#F2A63D"/>
+          <circle cx="100" cy="100" r="96" fill="none" stroke="#1A1A1A" stroke-width="3" stroke-dasharray="4 6"/>
+          <text x="100" y="90" text-anchor="middle" font-family="Fraunces, serif" font-size="30" fill="#1A1A1A" font-weight="700">B2</text>
+          <text x="100" y="120" text-anchor="middle" font-family="Fraunces, serif" font-size="30" fill="#1A1A1A" font-weight="700">G1</text>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONI ===== -->
+  <section class="testi" id="testi">
+    <div class="container">
+      <p class="kicker kicker--center">Slogan Brochiick</p>
+      <h2 class="section-title">Makan enak tetap hemat di Brochiick aja!</h2>
+
+      <div class="testi__slider">
+        <button class="testi__nav testi__nav--prev" id="testiPrev" aria-label="Sebelumnya">‹</button>
+
+        <div class="testi__track" id="testiTrack">
+          <blockquote class="testi__card is-active">
+            <p>"Ayam gepreknya enak dan porsinya pas. Harganya juga masih ramah di kantong."</p>
+            <cite>— Raras</cite>
+          </blockquote>
+          <blockquote class="testi__card">
+            <p>"Sambalnya mantap dan ayamnya bikin kenyang. Cocok buat makan bareng teman."</p>
+            <cite>— Dimas</cite>
+          </blockquote>
+          <blockquote class="testi__card">
+            <p>"Paket hematnya membantu banget kalau lagi cari makan enak dengan budget terbatas."</p>
+            <cite>— Salsabila</cite>
+          </blockquote>
+          <blockquote class="testi__card">
+            <p>"Pelayanannya ramah dan pilihan menunya cukup lengkap untuk makan siang atau malam."</p>
+            <cite>— Aditya</cite>
+          </blockquote>
+        </div>
+
+        <button class="testi__nav testi__nav--next" id="testiNext" aria-label="Berikutnya">›</button>
+      </div>
+
+      <div class="testi__dots" id="testiDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== APP / PESAN ===== -->
+  <section class="app" id="pesan">
+    <div class="container app__row">
+      <div class="app__copy">
+        <p class="kicker kicker--light">Pesan Lebih Gampang</p>
+        <h2>Pesan Brochiick tanpa ribet.</h2>
+        <p>Hubungi CS atau kunjungi outlet Brochiick untuk memesan menu favoritmu.</p>
+        <div class="app__buttons">
+          <a href="#" class="store-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M3 3l11 9-11 9V3z"/></svg>
+            <span>Google Play</span>
+          </a>
+          <a href="#" class="store-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="#fff"><path d="M16.5 2c.1 1.2-.4 2.4-1.1 3.3-.7.9-1.9 1.6-3 1.5-.1-1.2.5-2.4 1.2-3.2.8-.9 2-1.5 2.9-1.6zM20 17.1c-.6 1.3-.9 1.9-1.7 3-1.1 1.6-2.6 3.6-4.6 3.6-1.7 0-2.2-1.1-4.1-1.1-1.9 0-2.5 1.1-4.1 1.1-2 0-3.4-1.8-4.5-3.4C-1.2 16.7-.5 10 2.7 7.6c1.4-1.1 2.9-1.7 4.3-1.7 1.7 0 2.9 1.1 4.1 1.1 1.2 0 2.3-1.1 4.3-1.1 1.3 0 2.9.6 4 1.9-3.5 2-2.9 6.7.6 8.3z"/></svg>
+            <span>App Store</span>
+          </a>
+        </div>
+      </div>
+      <div class="app__visual" aria-hidden="true">
+        <svg viewBox="0 0 260 320" width="220">
+          <rect x="10" y="10" width="240" height="300" rx="30" fill="#1A1A1A"/>
+          <rect x="22" y="30" width="216" height="260" rx="18" fill="#FFE8E3"/>
+          <rect x="40" y="52" width="120" height="14" rx="7" fill="#1A1A1A" opacity="0.15"/>
+          <rect x="40" y="80" width="180" height="90" rx="14" fill="#F2A63D"/>
+          <rect x="40" y="182" width="86" height="70" rx="12" fill="#E4231C"/>
+          <rect x="134" y="182" width="86" height="70" rx="12" fill="#D6362A"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer" id="kontak-footer">
+  <div class="container footer__grid">
+    <div class="footer__brand">
+      <a href="index.html" class="nav__logo nav__logo--light">
+        <img src="assets/logo.png" alt="Brochiick" width="40" height="40" class="nav__logo-img">
+        <span>Brochiick</span>
+      </a>
+      <p>Ayam geprek, crispy chicken, dan menu hemat Brochiick disajikan hangat setiap hari.</p>
+      <p class="footer__slogan">Makan enak tetap hemat di Brochiick aja!</p>
+      <div class="footer__social">
+        <a href="https://instagram.com/brochiick" target="_blank" rel="noopener" aria-label="Instagram">Instagram @brochiick</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Jelajahi</h4>
+      <a href="tentang.html">Tentang Kami</a>
+      <a href="menu.html">Menu</a>
+      <a href="promo.html">Promo</a>
+      <a href="lokasi.html">Lokasi</a>
+    </div>
+
+    <div class="footer__col">
+      <h4>Kontak</h4>
+      <p>Jl. Antang Raya No.57, Antang, Kec. Manggala, Kota Makassar</p>
+      <p>081533330357</p>
+      <p>Instagram: @brochiick</p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Tetap Update</h4>
+      <p>Dapat kabar promo langsung ke email kamu.</p>
+      <form class="footer__form" id="newsletterForm">
+        <input type="email" placeholder="Email kamu" required>
+        <button type="submit">Kirim</button>
+      </form>
+      <p class="footer__form-note" id="formNote"></p>
+    </div>
+  </div>
+
+  <div class="container footer__bottom">
+    <p>&copy; 2026 Brochiick. Seluruh hak cipta dilindungi.</p>
+    <div>
+      <a href="#">Syarat & Ketentuan</a>
+      <a href="#">Kebijakan Privasi</a>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Kembali ke atas">↑</button>
+
+<script src="js/script.js"></script>
+</body>
+</html>
